@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family:sans-serif;
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        height: 60vh;
+        width: 45vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .profile{
+        width: 45vw;
+        height: 25vh;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    img{
+        height: 22vh;
+        border-radius: 100px;
+    }
+    .username{
+        width: 45vw;
+        height: 7vh;
+        background-color: #fff;    
+    }
+
+    .pass{
+        width: 45vw;
+        height: 7vh;
+        background-color: #fff;    
+    }
+    .inp{
+        width: 44vw;
+        height: 3.5vh;
+        margin-left: 3px;
+
+    }
+    .but{
+        width: 45vw;
+        height: 5vh;
+        background-color: #fff; 
+        
+           
+    }
+    .btn1{
+       
+        width: 45vw;
+        height: 5vh;
+        color: #fff;
+        background-color: rgb(5, 164, 48);
+        border: 0px;
+    }
+    .checkbox{
+        width: 45vw;
+        height: 5vh;
+        background-color: #fff;    
+    }
+    .last{
+        width: 45vw;
+        height: 7vh;
+        background-color: rgb(222, 222, 222);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .btn2{
+        width: 5vw;
+        height: 4vh;
+        background-color: rgb(240, 75, 75);
+        color: #fff;
+        border-radius: 3px;
+        border: 0px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="https://source.unsplash.com/random/200x200?sig=1" alt="">
+        </div>
+
+        <div class="username">
+             <p><strong>Username</strong></p>
+             <input type="text" class="inp" placeholder="Enter username here">
+             
+        </div>
+        <div class="pass">
+            <p><strong>Password</strong></p>
+            <input type="password" class="inp" placeholder="Enter password here">
+        </div>
+        <div class="but">
+            <button class="btn1"><strong>Login</strong></button>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" name="" id=""> Remember me
+        </div>
+        
+            
+    
+    </div>
+    <div class="last">
+         <div class="cancel">
+            <button class="btn2">Cancel</button>
+         </div>
+         <div class="forget">
+            <p>Forgot <a href="">Password</a>?</p>
+         </div>
+    </div>
+    
+</body>
+</html>
